@@ -1,13 +1,13 @@
 
--#Service name
--server:
--  port: 2229
--
--spring:
--  application:
--   name: demoservice
--
--# Discovery Server Access
+#Service name
+server:
+  port: 2229
+
+spring:
+  application:
+   name: demoservice
+
+# Discovery Server Access
 eureka:
   instance:
     health-che ck-url: /health
