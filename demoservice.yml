@@ -1,11 +1,7 @@
 
 #Service name
 server:
-<<<<<<< HEAD
   port: 2227
-=======
-  port: 2240
->>>>>>> 5d60878f1c969aaff838a3697a97106c9d5e9476
 
 spring:
   application:
