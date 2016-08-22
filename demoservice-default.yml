@@ -1,6 +1,6 @@
 #Service name
 server:
-  port: 2229
+  port: 2240
 
 spring:
   application:
