@@ -1,13 +1,17 @@
+
 #Service name
 server:
-  port: 2240
+  port: 2227
 
 spring:
   application:
    name: demoservice
 
-# Discovery Server Access
 
+  cloud:
+    config:
+      discovery:
+        enabled: true
 eureka:
   instance:
     health-che ck-url: /health
